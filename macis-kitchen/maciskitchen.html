@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Macis Kitchen Homemade Pastries</title>
+  <link rel="stylesheet" href="styles.css" />
+
+  <!--TopHeader-->
+  <header class="top-header">
+    <img src="https://via.placeholder.com/60" alt="Logo" class="logo" />
+    <h1 id="mainTitle">maciskitchen</h1>
+  </header>
+
+  <!--Navigation Bar-->
+  <nav class="top-nav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="menu.html">Menu</a>
+    <a href="contact.html">Contact</a>
+    <a href="maciskitchen.html">Shop</a>
+  </nav>
+
+</head>
+
+<body>
+
+
+  <body>
+    <!--Ordering Section-->
+    <h1>Homemade Cookies, Pastries and More</h1>
+    <section class="item-section" id="itemSection"></section>
+
+    <div class="basket">
+      <h2>Basket Summary</h2>
+      <ul id="basketList"></ul>
+      <p id="subtotal">Subtotal: $0</p>
+      <p id="delivery">Delivery Fee: $0</p>
+      <p id="total"><strong>Total: $0</strong></p>
+
+      <form id="deliveryForm">
+        <h3>Delivery Info</h3>
+        <input type="text" placeholder="First Name" id="firstName" required />
+        <input type="text" placeholder="Last Name" id="lastName" required />
+        <textarea placeholder="Address" id="address" required></textarea>
+        <button type="submit">Confirm Order</button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+
+</html>
